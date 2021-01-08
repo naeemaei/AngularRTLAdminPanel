@@ -24,9 +24,27 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/bootstrap-rtl/dist/css/bootstrap-rtl.min.css",
+              "src/assets/font-awesome/css/font-awesome.min.css",
+              "src/assets/nprogress/nprogress.css",
+              "src/assets/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css",
+              "src/assets/iCheck/skins/flat/green.css",
+              "src/assets/bootstrap-daterangepicker/daterangepicker.css",
+              "src/assets/css/custom.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/jquery/dist/jquery.min.js",
+              "src/assets/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/fastclick/lib/fastclick.js",
+              "src/assets/nprogress/nprogress.js",
+              "src/assets/bootstrap-progressbar/bootstrap-progressbar.min.js",
+              "src/assets/iCheck/icheck.min.js",
+              "src/assets/moment/min/moment.min.js",
+              "src/assets/bootstrap-daterangepicker/daterangepicker.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +137,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AdminPanel"
+    }
+  },
+  "defaultProject": "AdminPanel",
+  "cli": {
+    "analytics": "c7764d08-0c6e-4113-bdba-21531d04982e"
+  }
 }
