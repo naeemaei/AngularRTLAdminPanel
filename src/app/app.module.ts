@@ -2,22 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserProfileComponent } from './UserManagement/user-profile/user-profile.component';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './Usermanagement/login/login.component';
-import { HomeComponent } from './home/home.component';
-import { RegisterComponent } from './Usermanagement/register/register.component';
+import { LoginComponent } from './Forms/Usermanagement/login/login.component';
+import { HomeComponent } from './Forms/home/home.component';
+import { RegisterComponent } from './Forms/Usermanagement/register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './services/AuthInterceptor';
 import { APP_BASE_HREF } from '@angular/common';
-import { AppDataComponent } from './home/app-data/app-data.component';
-import { UserInfoComponent } from './UserManagement/user-info/user-info.component';
-import { SidebarMenuComponent } from './Home/sidebar-menu/sidebar-menu.component';
-import { SidebarFooterMenuComponent } from './Home/sidebar-footer-menu/sidebar-footer-menu.component';
-import { UserMessagesComponent } from './UserManagement/user-messages/user-messages.component';
-import { FooterComponent } from './Home/footer/footer.component';
-import { LockClockComponent } from './Home/lock-clock/lock-clock.component';
+import { AppDataComponent } from './Forms/home/app-data/app-data.component';
+import { UserInfoComponent } from './Forms/UserManagement/user-info/user-info.component';
+import { SidebarMenuComponent } from './Forms/Home/sidebar-menu/sidebar-menu.component';
+import { SidebarFooterMenuComponent } from './Forms/Home/sidebar-footer-menu/sidebar-footer-menu.component';
+import { UserMessagesComponent } from './Forms/UserManagement/user-messages/user-messages.component';
+import { FooterComponent } from './Forms/Home/footer/footer.component';
+import { LockClockComponent } from './Forms/Home/lock-clock/lock-clock.component';
+import { UserProfileComponent } from './Forms/userManagement/user-profile/user-profile.component';
 
 
 const appRoutes: Routes = [

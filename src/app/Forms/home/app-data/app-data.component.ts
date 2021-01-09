@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-data.component.css']
 })
 export class AppDataComponent implements OnInit {
-
-  constructor() { }
+  ApplicationName: string;
+  constructor() {
+    this.ApplicationName = "نام سرویس";
+  }
 
   ngOnInit(): void {
   }
